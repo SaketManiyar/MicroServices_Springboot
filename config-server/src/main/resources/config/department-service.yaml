@@ -1,0 +1,15 @@
+#port info this service should run on
+server:
+  port: 8081
+
+#go and connect to service registry
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#all the matrices to zipkin for department-service
+management:
+  tracing:
+    sampling:
+      probability: 1.0

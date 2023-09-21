@@ -1,0 +1,11 @@
+#all configuration should be rested here
+#all services should connect to this server to get all configurations
+
+
+server:
+  port: 8088
+
+#by default the configurations is git so make it native(looks for configurations in the app itself)
+spring:
+  profiles:
+    active: native
