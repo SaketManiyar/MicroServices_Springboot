@@ -1,3 +1,4 @@
+#file name should be same as service name
 #port info this service should run on
 server:
   port: 8081

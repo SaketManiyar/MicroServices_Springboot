@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer
+@EnableConfigServer				//all auto configurations will be done it springboot itself by this
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {

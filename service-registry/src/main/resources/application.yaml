@@ -10,7 +10,7 @@ spring:
 eureka:
   instance:
     hostname: localhost
-  client:
+  client:                               #you are a server
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:

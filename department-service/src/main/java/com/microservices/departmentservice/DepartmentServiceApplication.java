@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient						//acts as client server for service registry
 public class DepartmentServiceApplication {
 
 	public static void main(String[] args) {

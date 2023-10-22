@@ -1,4 +1,4 @@
-#all configuration should be rested here
+#all configuration should be rested here (like what should be the port of service to connect to)
 #all services should connect to this server to get all configurations
 
 

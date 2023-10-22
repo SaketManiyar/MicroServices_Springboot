@@ -4,7 +4,7 @@
 spring:
   application:
     name: department-service
-  #department service should get the configuration from the config server(where to connect to)
+  #department service should get/import the configuration from the config server(where to connect to)
   #optional means if config server is not available then also it will start
   config:
     import: "optional:configserver:http://localhost:8088"
