@@ -1,0 +1,12 @@
+
+#application service name
+spring:
+  application:
+    name: employee-service
+  #department service should get/import the configuration from the config server(where to connect to)
+  #optional means if config server is not available then also it will start
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+
+
